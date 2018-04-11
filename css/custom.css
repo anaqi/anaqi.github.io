@@ -1,0 +1,200 @@
+nav.main-menu {
+    float: right;
+}
+
+h2#title_description {
+    text-align: left;
+    font-size: 45px;
+    font-family: 'Glober-Light';
+}
+
+
+.intro-section {
+    padding: 90px 0;
+}
+
+.portfolio-item .pi-inner h2 {
+    top: 50px;
+}
+
+
+
+/* Fonts */
+
+@font-face {
+    font-family: 'Glober-Thin-Italic';
+    src: url(../fonts/GloberThinItalic.woff2) format('woff2'),
+        url(../fonts/GloberThinItalic.woff) format('woff');
+    font-weight: 100;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Glober-Black-Italic';
+    src: url(../fonts/GloberBlackItalic.woff2) format('woff2'),
+        url(../fonts/GloberBlackItalic.woff) format('woff');
+    font-weight: 900;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Glober-Light';
+    src: url(../fonts/GloberLight.woff2) format('woff2'),
+        url(../fonts/GloberLight.woff) format('woff');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Glober-xBold';
+    src: url(../fonts/GloberxBold.woff2) format('woff2'),
+        url(../fonts/GloberxBold.woff) format('woff');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Glober-Heavy-Italic';
+    src: url(../fonts/GloberHeavyItalic.woff2) format('woff2'),
+        url(../fonts/GloberHeavyItalic.woff) format('woff');
+    font-weight: 900;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Glober-Thin';
+    src: url(../fonts/GloberThin.woff2) format('woff2'),
+        url(../fonts/GloberThin.woff) format('woff');
+    font-weight: 100;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Glober-Regular';
+    src: url(../fonts/GloberRegular.woff2) format('woff2'),
+        url(../fonts/GloberRegular.woff) format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Glober-Bold';
+    src: url(../fonts/GloberBold.woff2) format('woff2'),
+        url(../fonts/GloberBold.woff) format('woff');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Glober-Book';
+    src: url(../fonts/GloberBook.woff2) format('woff2'),
+        url(../fonts/GloberBook.woff) format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Glober-Bold-Itlaic';
+    src: url(../fonts/GloberBoldItalic.woff2) format('woff2'),
+        url(../fonts/GloberBoldItalic.woff) format('woff');
+    font-weight: bold;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Glober-Heavy';
+    src: url(../fonts/GloberHeavy.woff2) format('woff2'),
+        url(../fonts/GloberHeavy.woff) format('woff');
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Glober-Book-Italic';
+    src: url(../fonts/GloberBookItalic.woff2) format('woff2'),
+        url(../fonts/GloberBookItalic.woff) format('woff');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Glober-Black';
+    src: url(../fonts/GloberBlack.woff2) format('woff2'),
+        url(../fonts/GloberBlack.woff) format('woff');
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Glober-Light-Italic';
+    src: url(../fonts/GloberLightItalic.woff2) format('woff2'),
+        url(../fonts/GloberLightItalic.woff) format('woff');
+    font-weight: 300;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: Glober-SemiBold;
+    src: url(../fonts/GloberSemiBold.woff2) format('woff2'),
+        url(../fonts/GloberSemiBold.woff) format('woff');
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Glober-SemiBold-Italic';
+    src: url(../fonts/GloberSemiBoldItalic.woff2) format('woff2'),
+        url(../fonts/GloberSemiBoldItalic.woff) format('woff');
+    font-weight: 600;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Glober-Regular-Italic';
+    src: url(../fonts/GloberRegularItalic.woff2) format('woff2'),
+        url(../fonts/GloberRegularItalic.woff) format('woff');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Glober-xBold-Italic';
+    src: url(../fonts/GloberxBoldItalic.woff2) format('woff2'),
+        url(../fonts/GloberxBoldItalic.woff) format('woff');
+    font-weight: bold;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'bodoniflfbold';
+    src: url('../fonts/bodoniflf-bold-webfont.woff2') format('woff2'),
+         url('../fonts/bodoniflf-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'bodoniflfbold_italic';
+    src: url('../fonts/bodoniflf-bolditalic-webfont.woff2') format('woff2'),
+         url('../fonts/bodoniflf-bolditalic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'bodoniflfmedium_italic';
+    src: url('../fonts/bodoniflf-italic-webfont.woff2') format('woff2'),
+         url('../fonts/bodoniflf-italic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'bodoniflfregular';
+    src: url('../fonts/bodoniflf-roman-webfont.woff2') format('woff2'),
+         url('../fonts/bodoniflf-roman-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
