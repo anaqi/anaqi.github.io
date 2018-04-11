@@ -711,6 +711,7 @@ ol {
     top: 30px;
     padding-top: 15px;
     display: none;
+    padding-bottom: 15px;
   }
   .main-menu ul li a {
     padding: 10px 15px;
