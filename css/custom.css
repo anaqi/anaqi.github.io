@@ -32,7 +32,22 @@ span.gray {
 }
 
 
+img.kik-logo {
+    width: 100px;
+    padding-bottom: 25px;
+}
 
+.meddy-title {
+    padding-top: 25px;
+}
+
+.black {
+  color: black;
+}
+
+.gray {
+  color: #979797;
+}
 
 
 
