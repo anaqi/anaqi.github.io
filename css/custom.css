@@ -53,10 +53,15 @@ img.kik-logo {
   text-transform: uppercase;
 }
 
+.intro-section {
+    padding: 0px !important;
+}
 
 
-
-
+.title-link {
+  color: black;
+  /*text-decoration: underline;*/
+}
 
 
 
