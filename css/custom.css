@@ -59,7 +59,7 @@ img.company-logo {
 
 
 a.title-link {
-  color: black !important;
+  color: black;
   /*text-decoration: underline;*/
 }
 
@@ -68,9 +68,13 @@ a.title-link {
     padding-top: 75px !important;
 }
 
+a.title-link.kiklink:hover {
+  color: #5ccd11 !important;
+}
 
-
-
+a.title-link.meddylink:hover {
+  color: #2a3d8b !important;
+}
 
 
 

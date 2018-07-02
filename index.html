@@ -73,8 +73,8 @@
 			<div class="row">
 				<div class="col-xl-10 offset-xl-1">
 					<img class="company-logo" src="img/kik.png" alt="">
-					<h4 class="section-title"> <span>Product Designer</span> at <a class="title-link" href="http://kik.com" target="_blank">Kik Interactive, Inc. </a></h4>
-					<h5 class="meddy-title gray"> Former Co-Founder, Designer & Engineer <span class="meddy-link black">at <a class="title-link" href="http://meddy.com" target="_blank"> Meddy, Inc. </a> </span> </h5>
+					<h4 class="section-title"> <span>Product Designer</span> at <a class="title-link kiklink" href="http://kik.com" target="_blank">Kik Interactive, Inc. </a></h4>
+					<h5 class="meddy-title gray"> Former Co-Founder, Designer & Engineer <span class="meddy-link black">at <a class="title-link meddylink" href="http://meddy.com" target="_blank"> Meddy, Inc. </a> </span> </h5>
 				</div>
 			</div>
 		</div>
@@ -115,31 +115,6 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> Ali N
 	<script src="js/mixitup.min.js"></script>
 	<script src="js/magnific-popup.min.js"></script>
 	<script src="js/main.js"></script>
-
-	<script type="text/javascript">
-		
-		$(document).ready(function(){
-		    $(".meddy-link").hover(function(){
-				
-				var image = $(".company-logo");
-
-			    image.fadeOut('fast', function () {
-			        image.attr('src', 'img/meddy.png');
-			        image.fadeIn('fast');
-			    });
-
-		        }, function(){
-		        
-				var image = $(".company-logo");
-
-			    image.fadeOut('fast', function () {
-			        image.attr('src', 'img/kik.png');
-			        image.fadeIn('fast');
-			    });
-
-		    });
-		});
-
-	</script>
+	<script src="js/document.js"></script>
 </body>
 </html>
