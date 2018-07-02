@@ -64,8 +64,8 @@ a.title-link {
 }
 
 
-section.portfolio-section {
-    padding-top: 75px;
+.portfolio-section {
+    padding-top: 75px !important;
 }
 
 
