@@ -38,7 +38,8 @@ img.company-logo {
 }
 
 .meddy-title {
-    padding-top: 25px;
+    padding-top: 30px;
+    font-family: 'productsansbold';
 }
 
 .black {
@@ -76,10 +77,13 @@ a.title-link.meddylink:hover {
   color: #2a3d8b !important;
 }
 
+.section-title {
+  font-family: 'productsansbold';
+}
 
-
-
-
+.copyright {
+  font-family: 'productsansregular';
+}
 
 
 
@@ -262,6 +266,43 @@ a.title-link.meddylink:hover {
     font-weight: normal;
     font-style: normal;
 }
+
+
+
+
+
+@font-face {
+    font-family: 'productsansbolditalic';
+    src: url('../fonts/product-sans-bold-italic-webfont.woff2') format('woff2'),
+         url('../fonts/product-sans-bold-italic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'productsansbold';
+    src: url('../fonts/product-sans-bold-webfont.woff2') format('woff2'),
+         url('../fonts/product-sans-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'productsansitalic';
+    src: url('../fonts/product-sans-italic-webfont.woff2') format('woff2'),
+         url('../fonts/product-sans-italic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'productsansregular';
+    src: url('../fonts/product-sans-regular-webfont.woff2') format('woff2'),
+         url('../fonts/product-sans-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
 
 
 /*Animation*/
