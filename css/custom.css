@@ -39,7 +39,7 @@ img.company-logo {
 
 .meddy-title {
     padding-top: 30px;
-    font-family: 'productsansbold';
+    font-family: 'Nunito', sans-serif;
 }
 
 .black {
@@ -78,7 +78,7 @@ a.title-link.meddylink:hover {
 }
 
 .section-title {
-  font-family: 'productsansbold';
+  font-family: 'Nunito', sans-serif;
 }
 
 .copyright {
