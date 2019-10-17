@@ -13,7 +13,26 @@ $(document).ready(function(){
 		var image = $(".company-logo");
 
 	    image.fadeOut('fast', function () {
+	        image.attr('src', 'img/carta.jpg');
+	        image.fadeIn('600');
+	    });
+    });
+
+    $(".kik-link").hover(function(){
+		
+		var image = $(".company-logo");
+
+	    image.fadeOut('fast', function () {
 	        image.attr('src', 'img/kik.png');
+	        image.fadeIn('600');
+	    });
+
+        }, function(){
+        
+		var image = $(".company-logo");
+
+	    image.fadeOut('fast', function () {
+	        image.attr('src', 'img/carta.jpg');
 	        image.fadeIn('600');
 	    });
     });
